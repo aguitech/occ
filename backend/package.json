@@ -1,0 +1,20 @@
+{
+  "name": "occ-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OCC · Redarbor México — Backend API para vacantes",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/__tests__/**/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.23.8"
+  }
+}

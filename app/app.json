@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "OCC Mobile",
+    "slug": "occ-app",
+    "scheme": "occ",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.aguitech.occapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#003DA5"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.aguitech.occapp"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-linking"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
