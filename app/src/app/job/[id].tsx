@@ -19,8 +19,8 @@ import Animated, {
   runOnJS,
   interpolate,
 } from 'react-native-reanimated';
-import { jobsService, actionsService } from '../../services/modules';
-import type { Job } from '../../types/api';
+import { jobsService, actionsService } from '../services/modules';
+import type { Job } from '../types/api';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const SWIPE_THRESHOLD = SCREEN_W * 0.25;

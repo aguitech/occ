@@ -1,5 +1,5 @@
 import { Stack } from 'expo-router';
-import { useSessionStore } from '../../store/session';
+import { useSessionStore } from '../store/session';
 
 export default function AuthLayout() {
   const { token, hydrated } = useSessionStore();

@@ -6,7 +6,8 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
+    "main": "expo-router/entry",
     "android": {
       "package": "com.aguitech.occapp",
       "adaptiveIcon": {
@@ -17,11 +18,13 @@
       "bundleIdentifier": "com.aguitech.occapp"
     },
     "plugins": [
-      "expo-router",
-      "expo-linking"
+      "expo-router"
     ],
-    "experiments": {
-      "typedRoutes": true
+    "extra": {
+      "EXPO_PUBLIC_API_URL": "http://localhost:3000",
+      "router": {
+        "root": "./src/app"
+      }
     }
   }
 }

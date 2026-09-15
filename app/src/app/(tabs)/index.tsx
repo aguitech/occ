@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, RefreshControl } from 'react-native';
 import { FlashList } from '@shopify/flash-list';
-import { useJobsSearch, makeOnEndReached, sortLabel } from '../../hooks/useJobsSearch';
-import { CITIES, SORT_OPTIONS, type SortOption } from '../../types/api';
-import type { Job } from '../../types/api';
-import JobCard from '../../components/JobCard';
+import { useJobsSearch, makeOnEndReached, sortLabel } from '../hooks/useJobsSearch';
+import { CITIES, SORT_OPTIONS, type SortOption } from '../types/api';
+import type { Job } from '../types/api';
+import JobCard from '../components/JobCard';
 import { useRouter } from 'expo-router';
 
 export default function JobSearchScreen() {
